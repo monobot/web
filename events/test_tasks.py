@@ -98,6 +98,7 @@ def test_send_message_django():
 
 def test_send_ticket(test_ticket):
     tasks.send_ticket('euribates@gmail.com', test_ticket)
+    tasks.send_ticket('sdelquin@gmail.com', test_ticket)
 
 
 if __name__ == '__main__':
